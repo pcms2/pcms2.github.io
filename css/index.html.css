@@ -1,0 +1,21 @@
+body {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 30px;
+  text-align: left;
+  background-color: #2e3440;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+#logo {
+  color: #d8dee9;
+}
+#deviz {
+  color: #f00
+}
+
+#footer {
+  color: #d8dee9;
+}
