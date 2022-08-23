@@ -1,21 +1,98 @@
+[podskazka] {
+  position: relative;
+}
+[podskazka]::after {
+  content: attr(podskazka);
+  position: absolute;
+  width:max-content;
+  max-width: 250px;
+  left: 0; top: 0;
+  background: #00f;
+  color: #fff;
+  padding: 0.5em;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  pointer-events: none;
+  opacity: 0;
+  transition: 0.5s;
+  z-index: 9999;
+} 
+[podskazka]:hover::after {
+  opacity: 1; /* Показываем подсказку */
+  top: 2em; /* Положение подсказки */
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+a {
+  color: #FFA500;
+  text-decoration: none;
+  
+}
+
+a:hover {
+  color: #FFF;
+  text-decoration: none;
+}
 body {
+  background-color: #000;
   margin-left: 25%;
   margin-right: 25%;
-  margin-top: 30px;
-  text-align: left;
-  background-color: #2e3440;
 }
 
-h1 {
-  margin-bottom: 0;
-}
-#logo {
-  color: #d8dee9;
-}
-#deviz {
-  color: #f00
-}
+.tablist {
+  list-style:none;
+  height:41px;
+  padding:0;
 
-#footer {
-  color: #d8dee9;
+  border:none;
+  background:#303030
+}
+.tablist li {
+  float:left;
+  margin-right:0
+}
+.tablist li>a {
+  display:block;
+  padding:8px 10px 0;
+  text-decoration:none;
+  color:orange;
+  background-color:#303030;
+  font-size:19px;
+  font-weight:400;
+  text-shadow:2px 2px 4px #000;
+  position:relative;
+  /* white-space:nowrap; */
+  height:32px
+}
+.tablist li>a img {
+  vertical-align:middle
+}
+.tablist li>a:hover {
+  color:#fff;
+  text-decoration:none;
+  background-color:#404040
+}
+.tablist li.current>a {
+  background-color:#404040;
+  color:#eee
+}
+.tablist li.current>a:hover {
+  color:#fff;
+  text-decoration:none;
+  background-color:#404040
+}
+.tablist li.search {
+  float:right
+}
+.tablist li.special>a {
+  color:#e3181b
+}
+.tablist li.current.special>a {
+  text-shadow:2px 2px 4px #3a0b0c
+}
+.tablist li.search {
+  margin:6px
 }
