@@ -63,6 +63,7 @@ for(let i = 0; i < a.length; ++i) {
       break;
     }
   }
+  console.log(tags);
   let blogHTML = `
 <div id="blogPost_${i}" class="blogPost">
   <div id="blogPostTitle_${i}" class="blogPostTitle">
@@ -79,8 +80,8 @@ for(let i = 0; i < a.length; ++i) {
     <span class="blogPostSep"> | </span>
     <span id="blogPostTags_${i}" class="blogPostTags">
 `
-  for(let j = 0; j < tags.length; ++j) {
-    blogHTML += `<a>${tags[i]}<\a> `
+  for(let k = 0; k < tags.length; ++k) {
+    blogHTML += `<a>${tags[k]}<\a> `
   }
   blogHTML += `</span>
   </div>
@@ -102,7 +103,6 @@ for(let i = 0; i < a.length; ++i) {
 </div>
 `
   let content = document.querySelector('#content')
-  // site.insertAdjacentHTML("afterbegin", headPanelHTML)
   content.insertAdjacentHTML("beforeend", blogHTML)
 }
 
