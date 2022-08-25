@@ -1,4 +1,5 @@
 /*
+Title: Анекдот #14
 Author: <blue>п.к. Хач</blue>
 Date: 25.08.2022
 Time: 20:20
