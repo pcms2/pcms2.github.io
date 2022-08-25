@@ -13,10 +13,12 @@ while(1) {
   };
 
   request.send(null);
+  i+=1
 }
 
-for(var i = 0; i < a.length; ++i) {
-  let v = a[i].split('\n')
+// for(var i = 0; i < a.length; ++i) {
+//   let v = a[i].split('\n')
 
-  console.log(v);
-}
+//   console.log(v);
+// }
+console.log
