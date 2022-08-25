@@ -11,6 +11,9 @@ while(1) {
     }
     a.push(request.responseText);
   };
+  if(!ok) {
+    break;
+  }
 
   request.send(null);
   i+=1;
@@ -22,4 +25,4 @@ while(1) {
 
 //   console.log(v);
 // }
-console.log
+// console.log
