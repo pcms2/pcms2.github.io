@@ -57,6 +57,6 @@ let footerHTML = `
 `
 
 
-const site = document.querySelector('#root')
+let site = document.querySelector('#root')
 site.insertAdjacentHTML("afterbegin", headPanelHTML)
 site.insertAdjacentHTML("beforeend", footerHTML)
