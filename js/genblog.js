@@ -104,6 +104,6 @@ for(let i = 0; i < a.length; ++i) {
   // console.log(blogHTML)
 }
 
-let site = document.querySelector('#content')
+let content = document.querySelector('#content')
 // site.insertAdjacentHTML("afterbegin", headPanelHTML)
-site.insertAdjacentHTML("beforeend", blogHTML)
+content.insertAdjacentHTML("beforeend", blogHTML)
