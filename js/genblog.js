@@ -1,4 +1,5 @@
 var a = []
+let i = 1;
 while(1) {
   var request = new XMLHttpRequest;
   request.open('GET', `./BLOG/${i}.md`, true);
