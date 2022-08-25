@@ -1,4 +1,4 @@
-var a = [];
+let a = [];
 let ind = 1;
 while(1) {
   var request = new XMLHttpRequest;
