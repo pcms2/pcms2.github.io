@@ -9,9 +9,11 @@ while(1) {
     if(request.status != 200) {
       ok = false;
     }
-    a.push(request.responseText);
+    if(ok) {
+      a.push(request.responseText);
+    }
   };
-  if(!ok) {
+  if(ok == false) {
     break;
   }
 
