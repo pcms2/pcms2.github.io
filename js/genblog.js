@@ -1,11 +1,12 @@
-var ind = 1;
-var request = new XMLHttpRequest;
-console.log("./BLOG/"+toString(ind)+".md");
-request.open('GET', "./BLOG/"+toString(ind)+".md", true);
+let ind = 1;
+let request = new XMLHttpRequest;
+console.log("./BLOG/"+ind+".md");
+request.open('GET', "./BLOG/"+ind+".md", true);
 
+let a = []
 let ok = true;
 request.onload = function () {
-  
+  alert(1111)
   if(request.status != 200) {
     ok = false;
   }
@@ -14,6 +15,8 @@ request.onload = function () {
     console.log(request.responseText);
   }
 };
+
+// console.log(a)
   // if(ok == false) {
   //   break;
   // }
