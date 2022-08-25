@@ -13,7 +13,8 @@ while(1) {
   };
 
   request.send(null);
-  i+=1
+  i+=1;
+  console.log(i);
 }
 
 // for(var i = 0; i < a.length; ++i) {
