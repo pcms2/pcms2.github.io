@@ -1,6 +1,6 @@
 let a = [];
 let ind = 1;
-while(1) {
+// while(true) {
   var request = new XMLHttpRequest;
   request.open('GET', `./BLOG/${ind}.md`, true);
 
@@ -14,14 +14,14 @@ while(1) {
       a.push(request.responseText);
     }
   };
-  if(ok == false) {
-    break;
-  }
+  // if(ok == false) {
+  //   break;
+  // }
 
-  request.send(null);
-  ind+=1;
-  console.log(ind);
-}
+  // request.send(null);
+  // ind+=1;
+  // console.log(ind);
+// }
 
 // for(var i = 0; i < a.length; ++i) {
 //   let v = a[i].split('\n')
