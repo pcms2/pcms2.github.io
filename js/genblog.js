@@ -1,10 +1,22 @@
-var request = new XMLHttpRequest;
-request.open('GET', './BLOG/', true);
+var a = []
+while(1) {
+  var request = new XMLHttpRequest;
+  request.open('GET', `./BLOG/${i}.md`, true);
 
+  let ok = true;
+  request.onload = function () {
+    
+    if(request.status != 200) {
+      ok = false;
+    }
+    a.push(request.responseText);
+  };
 
-request.onload = function () {
-  console.log(request.status);
-  console.log(request.responseText);
-};
+  request.send(null);
+}
 
-request.send(null);
+for(var i = 0; i < a.length; ++i) {
+  let v = a[i].split('\n')
+
+  console.log(v);
+}
