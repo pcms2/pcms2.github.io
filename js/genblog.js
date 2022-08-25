@@ -1,6 +1,7 @@
 var ind = 1;
 var request = new XMLHttpRequest;
-request.open('GET', `./BLOG/${ind}.md`, true);
+console.log("./BLOG/"+toString(ind)+".md");
+request.open('GET', "./BLOG/"+toString(ind)+".md", true);
 
 let ok = true;
 request.onload = function () {
