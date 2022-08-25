@@ -31,7 +31,7 @@ while(1) {
   zzz++;
 }
 
-for(let i = 0; i < a.length; ++i) {
+for(let i = a.length-1; i >= 0; --i) {
   let b = a[i].split('\n');
   // console.log(b);
   let date = null;
@@ -45,7 +45,7 @@ for(let i = 0; i < a.length; ++i) {
     // console.log(v);
     if(v[0] == 'Author:') {
       author=zalupa(v);
-      alert(author);
+      // alert(author);
     }
     else if(v[0] == "Date:") {
       date=zalupa(v);
@@ -63,7 +63,7 @@ for(let i = 0; i < a.length; ++i) {
       break;
     }
   }
-  console.log(tags);
+  // console.log(tags);
   let blogHTML = `
 <div id="blogPost_${i}" class="blogPost">
   <div id="blogPostTitle_${i}" class="blogPostTitle">
