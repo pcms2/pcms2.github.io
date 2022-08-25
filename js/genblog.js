@@ -1,6 +1,4 @@
-let a = [];
-let ind = 1;
-// while(true) {
+
   var request = new XMLHttpRequest;
   request.open('GET', `./BLOG/${ind}.md`, true);
 
@@ -12,6 +10,7 @@ let ind = 1;
     }
     if(ok) {
       a.push(request.responseText);
+      console.log(request.responseText);
     }
   };
   // if(ok == false) {
