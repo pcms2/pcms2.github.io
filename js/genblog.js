@@ -21,14 +21,14 @@ function zalupa(v) {
 }
 
 let a = [];
-let i = 1;
+let zzz = 1;
 while(1) {
-  let res = loadFile(`/BLOG/${i}.txt`)
+  let res = loadFile(`/BLOG/${zzz}.txt`)
   if(res == null) {
     break;
   }
   a.push(res);
-  i++;
+  zzz++;
 }
 
 for(let i = 0; i < a.length; ++i) {
