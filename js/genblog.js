@@ -1,18 +1,18 @@
+ind = 1;
+var request = new XMLHttpRequest;
+request.open('GET', `./BLOG/${ind}.md`, true);
 
-  var request = new XMLHttpRequest;
-  request.open('GET', `./BLOG/${ind}.md`, true);
-
-  let ok = true;
-  request.onload = function () {
-    
-    if(request.status != 200) {
-      ok = false;
-    }
-    if(ok) {
-      a.push(request.responseText);
-      console.log(request.responseText);
-    }
-  };
+let ok = true;
+request.onload = function () {
+  
+  if(request.status != 200) {
+    ok = false;
+  }
+  if(ok) {
+    a.push(request.responseText);
+    console.log(request.responseText);
+  }
+};
   // if(ok == false) {
   //   break;
   // }
