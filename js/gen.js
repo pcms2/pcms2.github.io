@@ -1,4 +1,4 @@
-var headPanelItems = [
+let headPanelItems = [
   {
     text: "Проекты",
     prompt: "Наши проекты",
@@ -33,7 +33,7 @@ let headPanelHTML = `
   </li>
 `
 
-for(var i = 0; i < headPanelItems.length; i++) {
+for(let i = 0; i < headPanelItems.length; i++) {
   headPanelHTML += 
   `  <li id="headPanelHTML_${i}" class="headPanelItem">
       <a href="${headPanelItems[i].href}" prompt="${headPanelItems[i].prompt}">${headPanelItems[i].text}</a>
