@@ -1,4 +1,4 @@
-ind = 1;
+let ind = 1;
 var request = new XMLHttpRequest;
 request.open('GET', `./BLOG/${ind}.md`, true);
 
