@@ -1,8 +1,8 @@
 var a = [];
-let i = 1;
+let ind = 1;
 while(1) {
   var request = new XMLHttpRequest;
-  request.open('GET', `./BLOG/${i}.md`, true);
+  request.open('GET', `./BLOG/${ind}.md`, true);
 
   let ok = true;
   request.onload = function () {
@@ -19,8 +19,8 @@ while(1) {
   }
 
   request.send(null);
-  i+=1;
-  console.log(i);
+  ind+=1;
+  console.log(ind);
 }
 
 // for(var i = 0; i < a.length; ++i) {
