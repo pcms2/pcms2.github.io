@@ -1,8 +1,8 @@
 /*
 Title: Ницше и хлеб
 Author: <blue>Дугин</blue>
-Date: 25.08.2022
-Time: 20:20
+Date: 27.08.2022
+Time: 11:02
 Tag: ницше
 Tag: заратустра
 */
