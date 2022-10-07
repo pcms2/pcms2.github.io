@@ -13,20 +13,20 @@ function loadFile(filePath) {
   return result;
 }
 
-let a = [];
+let b = [];
 let zzz = 1;
 while(1) {
   let res = loadFile(`/img/banner120/${zzz}.png`)
   if(res == null) {
     break;
   }
-  a.push(`/img/banner120/${zzz}.png`);
+  b.push(`/img/banner120/${zzz}.png`);
   zzz++;
 }
 
 
 let textBanner = `
-<img src="${a[getRandomInt(a.length)]}">
+<img src="${b[getRandomInt(b.length)]}">
 `
 
 let banner = document.querySelector('#banner120x500')

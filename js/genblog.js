@@ -27,12 +27,12 @@ while(1) {
   if(res == null) {
     break;
   }
-  a.push(res);
+  b.push(res);
   zzz++;
 }
 
-for(let i = a.length-1; i >= 0; --i) {
-  let b = a[i].split('\n');
+for(let i = b.length-1; i >= 0; --i) {
+  let b = b[i].split('\n');
   // console.log(b);
   let date = null;
   let time = null;
