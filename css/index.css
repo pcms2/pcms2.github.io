@@ -108,7 +108,6 @@ header {
 #footer {
   padding: 24px 32px;
   background-color: #ebeff3;
-  height: 170px;
 }
 
 #footerTitle {
@@ -120,4 +119,21 @@ header {
 
 p {
   margin-top: 5px;
+}
+
+#content {
+  margin-top: 97px;
+  background-color: white;
+}
+
+.content {
+  margin: 0 32px;
+}
+
+.contentItemTD {
+  width: 33%;
+  border-collapse:collapse;
+  border-spacing: 0;
+  padding: 0 10px;
+  margin-bottom: 20px;
 }

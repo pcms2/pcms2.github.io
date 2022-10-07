@@ -8,6 +8,10 @@ let headerItems = [
     href: "/olymp/"
   },
   {
+    text: "Проекты",
+    href: "/products/"
+  },
+  {
     text: "MonoCoin",
     href: "/monocoin/"
   },
@@ -28,14 +32,19 @@ let headerItems = [
 let headerHTML = `
 <header>
   <div id="head">
-    <a href=""id="headLeft">
-      <span id="headLogo">
-        pcms2.me
-      </span>
-      <span id="headTitle">
-        Официальный сайт Typuщвo Goblina
-      </span>
-    </a>
+    <div id="headLeft">
+      <a href="">
+        <span id="headLogo">
+          pcms2.me
+        </span>
+      </a>
+      <a href="https://mos.ru">
+        <span id="headTitle">
+          Официальный сайт Мера Москвы
+        </span>
+      </a>
+    </div>
+    
   </div>
   <ul id="headNav">
 `
