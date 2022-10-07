@@ -16,11 +16,11 @@ function loadFile(filePath) {
 let b = [];
 let zzzz = 1;
 while(1) {
-  let res = loadFile(`/img/banner120/${zzzz}.png`)
+  let res = loadFile(`/img/mer120x500/${zzzz}.png`)
   if(res == null) {
     break;
   }
-  b.push(`/img/banner120/${zzzz}.png`);
+  b.push(`/img/mer120x500/${zzzz}.png`);
   zzzz++;
 }
 
@@ -29,5 +29,5 @@ let textBanner = `
 <img src="${b[getRandomInt(b.length)]}">
 `
 
-let banner = document.querySelector('#banner120x500')
+let banner = document.querySelector('#mer120x500')
 banner.insertAdjacentHTML("afterbegin", textBanner)
