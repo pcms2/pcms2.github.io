@@ -1,0 +1,15 @@
+/*
+Title: Специально для ЮнАрмии
+Author: <blue>п.к. Хач</blue>
+Date: 29.08.2022
+Time: 20:40
+Tag: Юнармия
+Tag: Совершенно секретно
+*/
+
+<audio
+        controls autoplay loop
+        src="/img/zalupa.mp3">
+            Your browser does not support the
+            <code>audio</code> element.
+    </audio>
