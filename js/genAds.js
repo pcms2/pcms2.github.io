@@ -14,14 +14,14 @@ function loadFile(filePath) {
 }
 
 let b = [];
-let zzz = 1;
+let zzzz = 1;
 while(1) {
-  let res = loadFile(`/img/banner120/${zzz}.png`)
+  let res = loadFile(`/img/banner120/${zzzz}.png`)
   if(res == null) {
     break;
   }
-  b.push(`/img/banner120/${zzz}.png`);
-  zzz++;
+  b.push(`/img/banner120/${zzzz}.png`);
+  zzzz++;
 }
 
 

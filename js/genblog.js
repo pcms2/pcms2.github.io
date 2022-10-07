@@ -23,12 +23,12 @@ function zalupa(v) {
 let a = [];
 let zzz = 1;
 while(1) {
-  let res = loadFile(`/BLOG/${zzz}.txt`)
+  let res = loadFile(`/BLOG/${zzzz}.txt`)
   if(res == null) {
     break;
   }
   b.push(res);
-  zzz++;
+  zzzz++;
 }
 
 for(let i = b.length-1; i >= 0; --i) {
