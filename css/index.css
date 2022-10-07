@@ -124,10 +124,7 @@ p {
 #content {
   margin-top: 97px;
   background-color: white;
-}
-
-.content {
-  margin: 0 32px;
+  padding: 0 32px;
 }
 
 .contentItemTD {
@@ -136,4 +133,8 @@ p {
   border-spacing: 0;
   padding: 0 10px;
   margin-bottom: 20px;
+}
+
+#contentLeft {
+  width: 120px;
 }
