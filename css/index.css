@@ -123,24 +123,9 @@ p {
   margin-top: 5px;
 }
 
-#content {
-  margin-top: 97px;
-  background-color: white;
-  padding: 32px 32px;
-}
 
-#contentLeft {
-  display: inline-block;
-  height:100%;
-  vertical-align: top;
-}
-
-#contentCenter {
-  display: inline-block;
-  margin-left: 32px;
-  vertical-align: top;
-}
 
 img {
   display: inline;
 }
+

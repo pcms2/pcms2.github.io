@@ -29,6 +29,18 @@ let headerItems = [
   }
 ];
 
+function randint(max) {
+  return Math.floor(Math.random() * max);
+}
+
+function genMyor() {
+  if(randint(100) >= 95) {
+    return "Мёр";
+  } else {
+    return "Мер";
+  }
+}
+
 let headerHTML = `
 <header>
   <div id="head">
@@ -40,7 +52,7 @@ let headerHTML = `
       </a>
       <a href="https://mos.ru">
         <span id="headTitle">
-          Официальный сайт Мера Москвы
+          Официальный сайт ${genMyor()}а Москвы
         </span>
       </a>
     </div>

@@ -45,6 +45,7 @@ let ads120x500Items = [
 function randint(max) {
   return Math.floor(Math.random() * max);
 }
+
 const leftMerBlock = 2;
 for(let i = 1; i <= leftMerBlock; i++) {
   let j = randint(ads120x500Items.length);
