@@ -37,7 +37,7 @@ const leftMerBlock = 2;
 for(let i = 1; i <= leftMerBlock; i++) {
   let j = randint(ads120x500Items.length);
   let textBanner;
-  if(i == leftMerBlock) {
+  if(i == 1) {
     textBanner = `<a id="mer120x500_${i}" href="${ads120x500Items[j].link}" class="mer120x500">
       <img id="mer120x500IMG_${i}" class="mer120x500IMG" src="${ads120x500Items[j].image}">
     </a>
