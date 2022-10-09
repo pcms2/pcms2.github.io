@@ -8,7 +8,7 @@
 }
 
 body {
-	max-width: 1600px;
+	width: 1600px;
 	margin: 0 auto;
 	/* position: fixed; */
 	left: 0;
