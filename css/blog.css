@@ -6,6 +6,7 @@
 .blogPostTitle {
   width: 100%;
   font-size: 44px;
+  color: inherit;
   font-family: "PT Serif",Arial,serif
 }
 
