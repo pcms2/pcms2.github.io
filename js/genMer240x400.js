@@ -28,7 +28,7 @@ let ads240x400Items = [
     image: "img/mer240x400/6.png",
     text: "",
     link: "https://россия.рф"
-  },
+  }
 ];
 
 

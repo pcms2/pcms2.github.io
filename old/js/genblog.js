@@ -23,7 +23,7 @@ function zalupa(v) {
 let a = [];
 let zzz = 1;
 while(1) {
-  let res = loadFile(`/BLOG/${zzz}.txt`)
+  let res = loadFile(`BLOG/${zzz}.txt`)
   if(res == null) {
     break;
   }
