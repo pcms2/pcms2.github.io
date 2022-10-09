@@ -97,10 +97,12 @@ body {
 
 a {
   text-decoration: underline;
+  color:#c22;
 }
 
 a:hover {
   text-decoration: none;
+  color: inherit;
 }
 
 header {
