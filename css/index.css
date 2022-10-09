@@ -86,12 +86,20 @@ body {
   line-height: 56px;
 }
 
-a {
+header>a {
   color:#0e0e0f;
 }
 
-a:hover {
+header>a:hover {
   color:#c22;
+}
+
+a {
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 header {
