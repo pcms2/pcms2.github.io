@@ -4,6 +4,31 @@ let ads240x400Items = [
     text: "",
     link: "https://oper.ru"
   },
+  {
+    image: "img/mer240x400/3.png",
+    text: "",
+    link: "https://internat.msu.ru/"
+  },
+  {
+    image: "img/mer240x400/2.png",
+    text: "",
+    link: "https://www.rossetivolga.ru/ru/o_kompanii/filiali/filial_oao__mrsk_volgi_____mordovenergo_/"
+  },
+  {
+    image: "img/mer240x400/5.png",
+    text: "",
+    link: "https://synergy.ru/abiturientam/faculties/cybersport"
+  },
+  {
+    image: "img/mer240x400/4.png",
+    text: "",
+    link: "https://mos.ru"
+  },
+  {
+    image: "img/mer240x400/6.png",
+    text: "",
+    link: "https://россия.рф"
+  },
 ];
 
 

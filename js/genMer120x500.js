@@ -39,6 +39,11 @@ let ads120x500Items = [
     text: "",
     link: "https://rlc-rm.gosuslugi.ru"
   },
+  {
+    image: "img/mer120x500/9.png",
+    text: "",
+    link: "https://rlc-rm.gosuslugi.ru"
+  },
 ];
 
 
