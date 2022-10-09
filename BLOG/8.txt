@@ -1,6 +1,6 @@
 /*
 Title: Специально для ЮнАрмии
-Author: <blue>п.к. Хач</blue>
+Author: <blue>Хач</blue>
 Date: 29.08.2022
 Time: 20:40
 Tag: Юнармия
