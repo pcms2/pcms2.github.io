@@ -11,4 +11,4 @@ Tag: Калькудятор
 Команда спидранеров тупищво поставила новый мировой рекорд в прохождении игры "Калькулятор Игра v1.6.2" на сайте <a href ="vasily.su">vasily.su</a>
 
 Видео прилагается:
-<video src="/img/2022-08-27_12-09-51_online-video-cutter.com.mp4" controls></video>
+<video src="/old/img/2022-08-27_12-09-51_online-video-cutter.com.mp4" controls></video>

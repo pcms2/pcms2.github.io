@@ -9,7 +9,7 @@ Tag: Совершенно секретно
 
 <audio
         controls autoplay loop
-        src="/img/zalupa.mp3">
+        src="/old/img/zalupa.mp3">
             Your browser does not support the
             <code>audio</code> element.
     </audio>
