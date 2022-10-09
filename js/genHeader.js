@@ -17,7 +17,7 @@ let headerItems = [
   },
   {
     text: "Донат",
-    href: "/donat/"
+    href: "https://www.donationalerts.com/r/ischvo"
   },
   {
     text: "Тупищво",
