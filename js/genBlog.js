@@ -23,16 +23,16 @@ function zalupa(v) {
 let a = [];
 let zzz = 1;
 while(1) {
-  let res = loadFile(`/BLOG/${zzzz}.txt`)
+  let res = loadFile(`BLOG/${zzz}.txt`)
   if(res == null) {
     break;
   }
-  b.push(res);
-  zzzz++;
+  a.push(res);
+  zzz++;
 }
 
-for(let i = b.length-1; i >= 0; --i) {
-  let b = b[i].split('\n');
+for(let i = a.length-1; i >= 0; --i) {
+  let b = a[i].split('\n');
   // console.log(b);
   let date = null;
   let time = null;
@@ -65,27 +65,16 @@ for(let i = b.length-1; i >= 0; --i) {
   }
   // console.log(tags);
   let blogHTML = `
-<div id="blogPost_${i}" class="blogPost">
-  <div id="blogPostTitle_${i}" class="blogPostTitle">
-    <a href="/read.html?id=${i}">
-      ${title}
-    </a>
-  </div>
+  <div id="blogPost_${i}" class="blogPost">
+  <a href="/view?id=${i}" id="blogPostTitle_${i}" class="blogPostTitle">
+    ${title}
+  </a>
   <div id="blogPostInfo_${i}" class="blogPostInfo">
-    <span id="blogPostDate_${i}" class="blogPostDate">${date}</span>
-    <span class="blogPostSep"> | </span>
-    <span id="blogPostTime_${i}" class="blogPostTime">${time}</span>
-    <span class="blogPostSep"> | </span>
-    <span id="blogPostAuthor_${i}" class="blogPostAuthor">${author}</span>
-    <span class="blogPostSep"> | </span>
-    <span id="blogPostTags_${i}" class="blogPostTags">
-`
-  for(let k = 0; k < tags.length; ++k) {
-    blogHTML += `<a>${tags[k]}<\a> `
-  }
-  blogHTML += `</span>
+    <span class="blogPostInfoItem blogPostDate">${date}</span>
+    <span class="blogPostInfoItem blogPostTime">${time}</span>
+    <span class="blogPostInfoItem blogPostAuthor">${author}</span>
   </div>
-  <div id="blogPostContent_${i}" class="blogPostContent">
+  <div class="blogPostContent">
     <p>
 ` 
   ++j;
@@ -102,7 +91,7 @@ for(let i = b.length-1; i >= 0; --i) {
   </div>
 </div>
 `
-  let content = document.querySelector('#content')
+  let content = document.querySelector('#contentCenter')
   content.insertAdjacentHTML("beforeend", blogHTML)
 }
 

@@ -1,3 +1,32 @@
 .blogPost {
   width: 100%;
 }
+
+.blogPostTitle {
+  width: 100%;
+  font-size: 44px;
+  font-family: "PT Serif",Arial,serif
+}
+
+.blogPostInfoItem {
+  /* background-color: #f7f5ee; */
+  padding: 6px 8px;
+  font-family: Golos Text,Arial,sans-serif;
+  color: #5b422c;
+  box-shadow: inset 0 0 0 1px #d8c7b2;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.blogPostContent {
+  font-size: 20px;
+  line-height: 30px;
+  color: #0e0e0f;
+  font-family: "PT Serif",Arial,serif
+
+}
+
+.blogPostInfo {
+  margin-bottom: 10px;
+}
