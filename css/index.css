@@ -96,14 +96,13 @@ body {
 }
 
 a {
-  text-decoration: underline;
-  color: inherit;
+  text-decoration: none;
+  color:#c22;
 }
 
 a:hover {
   text-decoration: none;
-  color:#c22;
-  
+  color: inherit;
 }
 
 header {
