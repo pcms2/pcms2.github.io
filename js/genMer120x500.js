@@ -19,11 +19,11 @@ let ads120x500Items = [
     text: "",
     link: "https://mos.ru"
   },
-  {
-    image: "img/mer120x500/5.png",
-    text: "*Признана экстремистской организацией на территории тупищво гоблина",
-    link: "https://rlc.education"
-  },
+//   {
+//     image: "img/mer120x500/5.png",
+//     text: "*Признана экстремистской организацией на территории тупищво гоблина",
+//     link: "https://rlc.education"
+//   },
   {
     image: "img/mer120x500/6.png",
     text: "",
@@ -34,16 +34,16 @@ let ads120x500Items = [
     text: "",
     link: "https://mos.ru"
   },
-  {
-    image: "img/mer120x500/8.png",
-    text: "",
-    link: "https://rlc-rm.gosuslugi.ru"
-  },
-  {
-    image: "img/mer120x500/9.png",
-    text: "",
-    link: "https://rlc-rm.gosuslugi.ru"
-  },
+//   {
+//     image: "img/mer120x500/8.png",
+//     text: "",
+//     link: "https://rlc-rm.gosuslugi.ru"
+//   },
+//   {
+//     image: "img/mer120x500/9.png",
+//     text: "",
+//     link: "https://rlc-rm.gosuslugi.ru"
+//   },
 ];
 
 
