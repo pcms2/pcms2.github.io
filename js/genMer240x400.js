@@ -1,9 +1,9 @@
 let ads240x400Items = [
-  {
-    image: "img/mer240x400/1.png",
-    text: "",
-    link: "https://oper.ru"
-  },
+//   {
+//     image: "img/mer240x400/1.png",
+//     text: "",
+//     link: "https://oper.ru"
+//   },
   {
     image: "img/mer240x400/3.png",
     text: "",
