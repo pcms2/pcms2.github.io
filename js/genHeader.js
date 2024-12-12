@@ -4,6 +4,10 @@ let headerItems = [
     href: "/news/"
   },
   {
+    text: "Казино",
+    href: "/казино/"
+  },
+  {
     text: "Олимпиады",
     href: "/olymp/"
   },
